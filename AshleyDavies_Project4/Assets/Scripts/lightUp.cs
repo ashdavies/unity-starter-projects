@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class lightUp : MonoBehaviour {
-	/*public Material lightUpMaterial;
+	public Material lightUpMaterial;
 	public GameObject gameLogic;
 	private Material defaultMaterial;
 
@@ -34,7 +34,7 @@ public class lightUp : MonoBehaviour {
 	}
 	public void playerSelection() {
 		//GameLogic.GetComponent<gameLogic>().playerSelection(this.gameObject);
-		//this.GetComponent<GvrAudioSource>().Play();
+		this.GetComponent<GvrAudioSource>().Play();
 	}
 	public void aestheticReset() {
 		this.GetComponent<MeshRenderer>().material = defaultMaterial; //Revert to the default material
@@ -52,5 +52,5 @@ public class lightUp : MonoBehaviour {
 		patternLightUp ();
 		yield return new WaitForSeconds(duration-.1f);
 		aestheticReset ();
-	}*/
+	}
 }

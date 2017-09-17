@@ -9,7 +9,7 @@ public class GameLogic : MonoBehaviour {
 	public GameObject startPoint, playPoint, restartPoint;
 	public GameObject[] puzzleSpheres; //An array to hold our puzzle spheres
 
-	public int puzzleLength = 5; //How many times we light up.  This is the difficulty factor.  The longer it is the more you have to memorize in-game.
+	public int puzzleLength = 2; //How many times we light up.  This is the difficulty factor.  The longer it is the more you have to memorize in-game.
 	public float puzzleSpeed = 1f; //How many seconds between puzzle display pulses
 	private int[] puzzleOrder; //For now let's have 5 orbs
 
